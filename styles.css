@@ -8,6 +8,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&family=Lexend+Deca:wght@400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: bigShoulders;
+    src: url(big-shoulders-bold.ttf);
+}
+
 body {
   margin: 0;
   background-color: var(--light-gray);
@@ -37,7 +42,7 @@ p {
 }
 
 h1 {
-  font-family: 'Big Shoulders Display', cursive;
+  font-family: bigShoulders;
   font-weight: 700;
   font-size: 2.5rem;
   text-transform: uppercase;
