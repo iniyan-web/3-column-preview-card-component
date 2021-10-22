@@ -22,7 +22,7 @@ body {
   width: 900px;
   height: 400px;
   display: grid;
-  margin: 7vh auto;
+  margin: 12vh auto;
   grid-template-columns: repeat(3, 1fr);
 }
 
